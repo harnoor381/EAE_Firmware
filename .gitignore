@@ -1,0 +1,10 @@
+# CMake outputs and downloaded dependencies stay out of the submission.
+/build*/
+/cmake-build-*/
+/results/
+*.csv
+*.o
+*.a
+*.so
+*.exe
+CMakeUserPresets.json
